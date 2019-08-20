@@ -1,0 +1,341 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.center{
+    border: px solid blue;
+    min-height: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    background-color:white;
+    width: 100%;
+    border: px solid red;
+    line-height: 50px;
+}
+
+nav{
+    width: 100% !important;
+    border: px solid red;
+}
+
+.navbar-toggler {
+    outline:none !important;
+}
+
+.navbar span{
+    color: blue;
+}
+
+.all{
+    width: 100%;
+    min-height: 100%;
+    border: px solid red;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 70px;
+    background-color: blue;
+    text-align: center;
+    line-height: 70px;
+}
+
+.wrapper .badge{
+    background-color: white;
+    color: blue;
+    font-size: 16px;
+}
+
+.wrapper span{
+    color: white;
+    font-size: 16px;
+}
+
+.asked{
+    width: 100%;
+    min-height: 400px;
+    border: px solid black;
+    background-image:url(../faqpage.com/team.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin-top: 50px;
+}
+
+.asked h1{
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+
+.asked span{
+    color: blue;
+}
+
+.asked p{
+    font-family: avenir;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #565a5e;
+}
+
+.product{
+    width: 100%;
+    min-height: 500px;
+    background-image: linear-gradient(to top, rgba(249, 251, 253, 0.13), #f1f5fb);
+    padding-top: 100px;
+}
+
+   
+
+
+.product p{
+   
+    font-family: avenir;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #565a5e;  
+   
+}
+
+.safehold{
+    width: 100%;
+    min-height: 800px;
+    border: px solid red;
+    background-color: white;
+}
+
+.safehold h1{
+    text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.61;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #212731;
+
+}
+
+.safehold p{
+    text-align: center;
+    font-family: avenir;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #565a5e;
+}
+
+.safehold .row{
+    padding-top: 50px;
+}
+
+.safehold .row h2{
+    font-family: avenir;
+    font-size: 45px;
+}
+
+.safehold .row span{
+    color: blue;
+    font-family: avenir;
+    font-size: 20px;
+}
+
+
+.safehold .row p{
+    font-family: avenir;
+    font-size: 18px; 
+
+}
+
+
+.read{
+    width: 100%;
+    min-height: 400px;
+    border: px solid red;
+    background-image: url(../faqpage.com/bitmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.read .row{
+    padding-top: 40px; 
+    margin-left: 
+}
+
+
+.read .card-2{
+    width: 300px;
+    min-height: 350px;
+    border: px solid red;
+    border-right: 1px solid #ffffff;
+}
+
+.card-2 h3{
+    color: white;
+    font-size:35px; 
+}
+
+.card-2 p{
+    color: #ffffff;
+    
+    opacity: 0.3;
+  
+  font-size: 16.8px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #ffffff;;   
+}
+
+.card-2 button{
+    padding: 0.9rem 2.7rem;
+    background-color:#2b3f4d;
+    color: white;
+    border: none;
+    font-size: 16px; 
+}
+
+.join{
+    width: 100%;
+    height: 500px;
+    background-image: url(../faqpage.com/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    width: 100%;
+    min-height: 60%;
+     background-color: white;
+     border: px solid red;
+}
+
+.footer .heads{
+    margin-top: 50px;
+    margin-left: 25px;
+    font-family: Gordita;
+  font-size: 22.9px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #484f5f;
+}
+
+.footer ul li{
+    list-style: none;
+    font-size: 14.2px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    margin-left: -10px;
+    
+}
+
+.footer ul a{
+    text-decoration: none;
+    color: #484f5f;
+    font-size: 16.2px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+}
+
+.footer p{
+    color:  #565a5e;
+    font-size: 16.2px;
+    margin-left: 20px;
+   
+}  
+
+.form-inline{
+    margin-left: 20px;
+}
+
+
+.footer img{
+    margin-left: 20px;  
+}
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row
+{
+   border: px solid #09f;
+   
+}
+
+* [class^=col]
+{
+   border: px solid green;
+}
+

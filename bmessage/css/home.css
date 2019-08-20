@@ -1,0 +1,293 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+}
+
+body .form {
+  width: 100%;
+  min-height: 100%;
+  border: 0px solid white;
+  background-image: linear-gradient(135deg, #0e0c1b, #5c273b);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 0;
+}
+
+body .form .all {
+  width: 400px;
+  min-height: 50px;
+  background-color: #fbfcff;
+  border-radius: 6px;
+  margin: auto;
+}
+
+body .form .all .center {
+  width: 85%;
+  min-height: 100px;
+  border: 0px solid black;
+  margin: auto;
+  padding: 10px 0;
+}
+
+body .form .all p {
+  text-align: center;
+}
+
+body .form .all select {
+  width: 100%;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+body .form .all #Anniversary {
+  margin-top: 20px;
+  border: none;
+  padding: 0;
+}
+
+body .form .all #Anniversary input[type=url] {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #Anniversary textarea[type=text] {
+  width: 100%;
+  outline: none;
+  min-height: 120px;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #Birthday {
+  margin-top: 30px;
+  border: none;
+  padding: 0;
+}
+
+body .form .all #Birthday input[type=url] {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #Birthday textarea[type=text] {
+  width: 100%;
+  outline: none;
+  min-height: 120px;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #collection {
+  margin-top: 30px;
+  border: none;
+  padding: 0;
+}
+
+body .form .all #collection input[type=url] {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #collection textarea[type=text] {
+  width: 100%;
+  outline: none;
+  min-height: 120px;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #occasions {
+  margin-top: 30px;
+  border: none;
+  padding: 0;
+}
+
+body .form .all #occasions input[type=url] {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #occasions textarea[type=text] {
+  width: 100%;
+  outline: none;
+  min-height: 120px;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #Holidays {
+  margin-top: 30px;
+  border: none;
+  padding: 0;
+}
+
+body .form .all #Holidays input[type=url] {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #Holidays textarea[type=text] {
+  width: 100%;
+  outline: none;
+  min-height: 120px;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #Tones {
+  margin-top: 30px;
+  border: none;
+  padding: 0;
+}
+
+body .form .all #Tones input[type=url] {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #Tones textarea[type=text] {
+  width: 100%;
+  outline: none;
+  min-height: 120px;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #Thinking-of-you {
+  margin-top: 30px;
+  border: none;
+  padding: 0;
+}
+
+body .form .all #Thinking-of-you input[type=url] {
+  width: 100%;
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+  padding-left: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all #Thinking-of-you textarea[type=text] {
+  width: 100%;
+  outline: none;
+  min-height: 120px;
+  font-size: 14px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  margin-top: 10px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+}
+
+body .form .all button {
+  padding: 0.9rem 0;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 11px 20px 0 #f2f2f3;
+          box-shadow: 0 11px 20px 0 #f2f2f3;
+  background-color: #077dfc;
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+body .form .all button a {
+  text-decoration: none;
+  color: white;
+}
+/*# sourceMappingURL=home.css.map */

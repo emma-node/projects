@@ -1,0 +1,61 @@
+/*######### defaults *#########*/
+nav,
+header;
+footer{
+  display: block;
+}
+
+body{
+    line-height: 1;
+    margin:0px;
+    background-image:url(cal.png);
+    background-size: cover;
+    background-position:;
+}
+
+
+/*######## nav bar #########*/
+
+
+
+nav{
+    width: 100%;
+    margin: 0;
+}
+
+nav ul{
+    background-color:black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: .8%
+}
+
+ul.topnav li{
+    list-style: none;
+    float:left; 
+}
+
+
+ul.topnav li.topnav-right li{
+    float: right;
+    
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 30px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+ul.topnav li a:hover{
+     background-color: darkgray;
+    color: beige;
+}
+
+
+
+

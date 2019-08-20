@@ -1,0 +1,195 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="_font.scss">
+ 
+</head>
+<body>
+
+     <section class="all">
+            <div class="center"> 
+                <h1>inline-form</h1>
+  <form action=""  method="POST" id="form">
+<div class="one">   
+    <p>Username:</p>
+<input type="text" name="username"  placeholder="username" id="username" />
+<div id="usernameErr"></div>
+</div>
+
+<div class="onee">
+        <p>phone:</p>
+    <input type="text" name="phone"  placeholder="+234" id="phone" />
+    <div id="phoneErr"></div>
+    </div>
+
+<div class="two">
+   <p>email:</p> 
+<input type="email" name="email"  placeholder="enter@gmail.com" id="email" />
+<div  id="emailErr"></div>
+</div>
+
+<div class="three">
+        <p>password:</p>
+<input type="password" name="password" placeholder="enter your password" id="password" />
+<div id="passworderr"></div>
+</div>
+
+
+<div class="four">
+    <p>confirm password:</p>
+<input type="password" name="password"  placeholder="re-enter your password" id="re-enter" />
+<div id="password"></div>
+</div>
+
+<br>
+<div id="output"></div>
+
+<button type="submit"> sumbit</button>
+
+
+
+
+
+  </form>
+  </div>
+
+
+  
+
+</section>
+<br>
+
+
+<!-- <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div> -->
+      <br>
+
+      <nav id="nav">
+          <div class="logo">
+              
+          </div>
+       <div id="nav-items">
+            <a>emma</a>
+            <a>sunday</a>
+            <a>emma</a>
+            <a>sunday</a>
+       
+       
+           <button id="toggle" onclick="clickFunction()">toggle</button>
+       
+       </div>   
+    
+
+      </nav>
+    
+
+<script>
+    
+    var form = document.getElementById("form")
+    var username = document.getElementById("username"); 
+   var phone = document.getElementById("phone");
+   var email = document.getElementById("email");
+   var password = document.getElementById("password");
+
+   form.onsubmit = function () {
+   
+   if (username.value ==="" && username.value.length < 6 )
+  {
+    document.getElementById("usernameErr").innerHTML = "enter at least 6 charaters";
+    usernameErr.style.color = "red";
+    username.style.border = "1px solid red;"
+
+   }
+    
+ if (phone.value ===""  && phone.value.length < 6 ) {
+    document.getElementById("phoneErr").innerHTML = "enter at least 6 charaters";
+    phoneErr.style.color = "red";
+    phone.style.border = "1px solid red;"
+
+    
+}
+
+ if  (email.value ===""  && email.value.length < 6 ) {
+    email.style.border = "1px solid red;"
+    document.getElementById("emailErr").innerHTML = "enter at least 6 charaters";
+    emailErr.style.color = "red";
+   
+
+    
+}
+
+ if(password.value ===""  && password.value.length < 6 ) {
+    document.getElementById("passworderr").innerHTML = "enter at least 6 charaters";
+    passworderr.style.color = "red";
+    password.style.border = "1px solid red;"
+
+    return false;
+}
+  
+   else {
+       return true;
+   }
+ 
+
+   }  
+ 
+
+   function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
+   function clickFunction() {
+      var x = document.getElementById("toggle");
+      var y = document.getElementById("nav-items");
+
+     
+    
+   
+   if( x.style.display == "none" ) { x.style.display = "block"; }
+   else { x.style.display = "none"; }
+}
+
+</script>
+
+
+
+
+
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

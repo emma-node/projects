@@ -1,0 +1,195 @@
+.all {
+  width: 100%;
+  border: px solid red;
+}
+
+header {
+  border: px solid red;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../mytask/active.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../mytask/active.png);
+  background-size: cover;
+  background-position: center;
+  padding-top: 15px;
+  min-height: 100vh;
+}
+
+header nav {
+  width: 100%;
+}
+
+.navbar li .nav-link {
+  font-family: 'Sanchez', serif;
+  font-size: 1.2em;
+  color: white !important;
+  letter-spacing: 2px;
+}
+
+.navbar li .nav-link:hover {
+  border-bottom: 1px solid white;
+  color: black !important;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.slide {
+  width: 100%;
+  min-height: 150px;
+  padding-bottom: 30px;
+  border: 0px solid black;
+  margin-top: 250px;
+  text-align: center;
+}
+
+.slide .container {
+  padding-bottom: 40px;
+}
+
+.slide h1 {
+  letter-spacing: 3px;
+  font-family: 'Sanchez', serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  color: white;
+}
+
+.slide p {
+  font-size: 18px;
+  font-family: 'Sanchez', serif;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+  color: white;
+}
+
+.slide .small {
+  padding: 1rem 2.2rem;
+  font-size: 20px;
+  font-family: 'Sanchez', serif;
+  background-color: rgba(0, 0, 0, 0.007);
+  border: 2px solid white;
+  outline: none !important;
+  color: white;
+}
+
+.slide .small:hover {
+  background-color: green;
+  border: none;
+}
+
+.slide .medium {
+  padding: 1rem 2.2rem;
+  background-color: rgba(0, 0, 0, 0.007);
+  font-size: 20px;
+  font-family: 'Sanchez', serif;
+  border: 2px solid white;
+  outline: none !important;
+  color: white;
+}
+
+.slide .medium:hover {
+  background-color: white;
+  color: black;
+}
+
+.main {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.fit {
+  width: 70%;
+  min-height: 250px;
+  -webkit-box-shadow: 0 10px 70px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 10px 70px rgba(0, 0, 0, 0.5);
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.fit h1 {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+}
+
+.fit h1 span {
+  color: #DC16AC;
+}
+
+.fit h1 P {
+  font-size: 18px;
+  font-family: avenir;
+  font-weight: normal;
+  letter-spacing: 1.5px;
+}
+
+.section {
+  background-color: #1a1a1a;
+  padding: 30px 0px 30px 0px;
+}
+
+.section .card {
+  width: 100%;
+  min-height: 300px;
+  margin-top: 20px;
+  padding: 20px 7px 20px 7px;
+  text-align: center;
+}
+
+.section .card:hover {
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+.section .card h1 {
+  color: white;
+  padding-top: 100px;
+  font-family: 'Sanchez', serif;
+}
+
+.section .div {
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+  border: 0px solid white;
+  margin-top: 20px;
+}
+
+.section .div span {
+  color: green;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.section .div p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.section .div .large {
+  padding: 1rem 2.2rem;
+  background-color: rgba(0, 0, 0, 0.007);
+  font-size: 20px;
+  font-family: 'Sanchez', serif;
+  border: 1px solid white;
+  color: white;
+  outline: none !important;
+  border-radius: 6px;
+}
+
+.section .div .large:hover {
+  background-color: white;
+  color: black;
+}
+
+.row {
+  border: 0px solid #09f;
+}
+
+* [class^=col] {
+  border: 0px solid green;
+}
+/*# sourceMappingURL=main.css.map */

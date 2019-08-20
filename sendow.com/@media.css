@@ -1,0 +1,131 @@
+@media screen and (max-width: 942px) {
+    nav {
+        font-size: 14px;
+        
+    }
+}
+
+@media screen and (max-width: 904px) {
+    .navbar form{
+        display: none;
+    }
+
+    }
+
+    @media screen and (max-width: 758px) {
+        .dropdown-menu{
+            width: 15px;
+            background-color:aqua;
+            border:none;
+            margin-left: -25px;
+            
+        }
+        .dropdown-menu a{
+            font-size:14px;
+            margin-left: -10px;
+           outline: none;
+           color: white;
+            
+        }
+        
+
+        .dropdown-divider{
+           display: none;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+
+       .see .col-xl-4{
+           display: none;
+       }  
+    }
+
+    @media screen and (max-width: 768.98px) {
+        .see button{
+            padding: 1rem 1rem;
+            color: white;
+            font-size: 20px;
+    }
+
+    .design p{
+        color: white;
+        font-size: 20px;
+
+}
+
+.development button{
+    padding: 1rem 1rem;
+}
+
+
+.print button{
+    padding: 1rem 1rem;
+}
+
+
+
+    }
+
+
+
+
+
+    @media screen and (max-width: 320px) {
+        .see button{
+            padding: 1rem 0.5rem;
+            color: white;
+            font-size: 18px;
+    }
+
+    .design p{
+        color: white;
+        font-size: 16px;
+
+}
+
+.development button{
+    padding: 1rem 0.5rem;
+    font-size: 18px;
+}
+
+.identity button{
+    padding: 1rem 0.5rem;  
+}
+
+
+.print button{
+    padding: 1rem 0.5rem;
+    font-size: 16px;
+}
+
+.wrapper h4{
+    color: white;
+    font-size: 16px;
+    font-family: avenir;
+}
+
+.wrapper h5{
+    color: white;
+    font-size:16px;
+    font-family: avenir;
+}
+
+
+    }
+
+
+    @media screen and (max-width: 425px)  {
+        .wrapper h4{
+            color: white;
+            font-size: 18px;
+            font-family: avenir;
+        }
+        
+        .wrapper h5{
+            color: white;
+            font-size:18px;
+            font-family: avenir;
+        }
+    }
+   

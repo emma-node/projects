@@ -1,0 +1,47 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.center{
+    border: px solid blue;
+    min-height: 100px;
+    width: 95%;
+    margin: auto;
+}
+
+header{
+
+    
+    border: px solid red;
+    line-height: 60px;
+}
+
+nav{
+    width: 100% !important;
+    border: px solid red;
+}
+
+.navbar-toggler {
+    outline:none !important;
+}
+
+.navbar span{
+    color: blue;
+}
+
+.all{
+    width: 100%;
+    min-height: 100%;
+    border: 1px solid red;
+
+}
+
+.get{
+    width: 100%;
+    min-height: 400px;
+    border: 1px solid blue;
+    background-image: url(../gettingstarted/bit.png);
+}

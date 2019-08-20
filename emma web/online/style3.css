@@ -1,0 +1,436 @@
+/*######### defaults *#########*/
+nav,
+header,
+footer{
+  display: block;
+}
+
+body{
+    line-height: 1;
+    margin:0px;
+    background-color:#4b9eff; 
+ 
+}
+
+
+/*######## nav bar #########*/
+
+
+
+nav{
+    width: 100%;
+    height: 73px;
+    margin: 0;
+    ;
+}
+
+nav ul{
+    background-color:#ffffff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    opacity: .8%
+}
+
+ul.topnav li{
+    list-style: none;
+    float:right;
+    margin-top:10px ;
+}
+
+ul.topnav li.topnav-right li{
+    float: right;
+    
+}
+ul.topnav li a{
+   
+    display: block;
+    text-decoration: none;
+    min-height: 30px;
+    text-align: center;
+    padding: 14px;
+    
+    text-transform: uppercase;
+    color: #363636;
+}
+
+ul.topnav li a:hover{
+     background-color: #4b9eff;
+    color: beige;
+}
+
+.download{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top:-5px;
+    margin-right: 20px;
+}
+
+.googlelogo{
+    width: 135px;
+    height: 45px;
+    margin-top:13px;
+    margin-left: 20px;
+}
+
+.Store {
+  width: 278px;
+  height: 164px;
+  font-family: 'Halant';
+  font-size: 120px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+    margin-top:-3%;
+  color: rgba(255, 255, 255, 0.22);
+}
+
+.square-2 {
+  width: 704px;
+  height: 800px;
+  border-radius: 18px;
+  background-color: #ffffff;
+    float: right;
+    margin-bottom: 5%;
+    margin-right: 39px;
+
+}
+
+
+.Google-Home---mini{
+    text-align: center;
+    margin-left: 133px;
+    margin-right: 137px;
+    margin-top: 78px;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #7e7e7e;
+    
+}
+
+.line1 {
+   float: left;
+   width: 25%;
+   margin-top: 30px;
+   height: 0.1px;
+ border: solid 1px #979797;
+ margin-left: 10%;
+}
+
+.amt {
+   text-align: center;
+   width: 33%;
+   float: left;
+   margin-top: 0px;
+   width: 214px;
+ height: 87px;
+ font-family: 'ProductSans';
+ font-size: 40px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: 0.2px;
+ color: #7a7a7a;
+   margin-top:10px;
+   margin-bottom:0;
+}
+
+.line2 {
+   width: 25%;
+   float: left;
+   margin-top: 30px;
+   height: 0.1px;
+ border: solid 1px #979797;
+}
+
+.google-home p{
+  width: 400px;
+  height: 81px;
+  font-family: Avenir;
+  font-size: 19px;
+  font-weight: 250;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  color: #4d4d4d;
+margin-left: 18%;
+text-align: center;
+}
+
+#available-in p{
+  width: 135px;
+  height: 22px;
+  font-family: Avenir;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: 4.8px;
+  text-align: center;
+  color: #4d4d4d;
+  margin-left: 37%;
+  margin-top:25px;
+  margin-bottom:0px;
+}
+
+.oval {
+  width: 19px;
+  height: 18px;
+  display: inline-block;
+  float: right;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.48);
+  background-color: #ffffff;
+}
+.oval-2{
+  width: 19px;
+  height: 18px;
+  float: right;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.48);
+  background-color: #f16247;
+}
+.oval-3{
+  width: 19px;
+  height: 18px;
+  float: right;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.48);
+  background-color: #81b969;
+}
+.oval-1{
+  width: 19px;
+  height: 18px;
+  float: right;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.48);
+  background-color: #fdcf22;
+}
+
+.oval-4{
+  margin-right: 47%;
+  font-size: 20%;
+   margin-top:10px;
+
+}
+
+.get {
+   width: 433px;
+ height: 22px;
+ font-family: ProductSans;
+ font-size: 18px;
+ font-weight: normal;
+ font-style: normal;
+ font-stretch: normal;
+ line-height: normal;
+ letter-spacing: 0.2px;
+ text-align: center;
+ color: #4d4d4d;
+   margin-left:20%;
+   margin-bottom:0;
+}
+
+.card-details{
+  margin-top: 2.5%;
+}
+
+.txt1{
+  width: 113px;
+  height: 25px;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #4d4d4d;
+  margin-left: 10%;
+}
+
+.txt2{
+  width: 113px;
+  height: 25px;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: -3%;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #4d4d4d;
+  float: right;
+  margin-right:18%;
+}
+
+.card-details input[type="text"], input[type="text"]{
+   border: none;
+   border-bottom: 1px solid #4d4d4d;
+   background:transparent;
+   outline: none;
+   height: 40px;
+   font-size: 16px;
+}
+.card-details2{
+  margin-top: 7%;
+}
+
+.txt3{
+  width: 113px;
+  height: 25px;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #4d4d4d;
+  margin-left: 10%;
+}
+.txt4{
+ width: 113px;
+  height: 25px;
+  font-family: Avenir;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  margin-top: -3%;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #4d4d4d;
+  float: right;
+  margin-right:18%;
+}
+
+button{
+  width: 228px;
+  height: 50px;
+  object-fit: contain;
+  margin-left: 10%;
+  border-radius: 50px;
+  font-size: 20px;
+  background-color: #6baeff;
+  color: #ffffff;
+
+}
+
+.button{
+  margin-top: 7%;
+}
+.button2 button{
+  color: #ffffff;
+  background-color: #6daf53;
+  float: right;
+  text-decoration: none;
+  margin-right: 17%;
+
+
+}
+.button2{
+  margin-top: -7%;
+
+}
+
+img{
+  margin-left: 10%;
+  margin-top: 18%;
+}
+
+
+
+
+@media only screen and (max-width: 450px)
+{
+
+  body{
+    font-size: 10px;
+  } 
+
+  nav {
+    height: 20px;
+    margin: 0;
+  }
+
+  ul.topnav li {
+    font-size:12px;
+    float: right;
+  }
+
+  ul.topnav li a {
+    min-height: 10px;
+    padding: 5px;
+  }
+
+  .googlelogo {
+    width: 60px;
+    height: 35px;
+  }
+
+  .download {
+    width: 30px;
+    height: 30px; 
+    margin-right: 10px;
+  }
+
+  .store {
+    width: 200px;
+    height: 164px;
+  }
+
+  
+  .square-2{
+    width: 390px;
+    height: 600px;
+    margin-right:20px;    
+    
+  }
+
+   .Google-Home---mini 
+   {
+    font-family: 'Roboto'; 
+    height:66px;
+    width: 434px;
+  font-size: 20px;
+  margin-right: 15%;
+  /*margin-left: 66px;*/
+  text-align: center;
+  margin-top:30px;
+   }
+
+   .line1{
+  font-size: 7px;
+   }
+
+   .line2{
+    font-size: 7px;
+    margin-top: -18%;
+    float: right;
+   }
+
+   .google-home p {
+    width: 200px;
+    height: 40px;
+  font-family: Avenir;
+  font-size: 15px;
+  margin-top: -20px;
+   }
+}
+

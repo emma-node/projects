@@ -1,0 +1,336 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    border: px solid blue;
+    min-height: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+header{background-color: aqua;
+    min-height: 100px;
+    line-height: 50px;
+}
+.navbar-toggler {
+    height: 50px;
+    outline:none !important;
+}
+
+.all{
+    width: 100%;
+   min-height:100%;
+    border: 1px solid pink;
+
+}
+
+.wrap{
+    width: 100%;
+    min-height: 75vh;
+    background-image: url(../seeu8.com/Chicag0.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color:rgb(0,0,0,.7);
+    border: px solid red;
+}
+
+.see{
+    width: 100%;
+    min-height: 75%;
+    background-color:rgb(0,0,0,.7); 
+    border: px solid pink;
+   
+}
+
+.see h1{
+    color: white;
+    font-family: avenir;
+    font-size: 30px;
+    
+}
+.see .row{
+    padding-top: 100px;
+}
+
+.see p{
+    color: white;
+    font-family: avenir;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.see button{
+    padding: 1rem 2.5rem;
+    color: white;
+    font-size: 20px;
+    font-family: avenir;
+    background-color: rgb(0,0,0,.2);
+    border: 1px solid white;
+    outline: none!important;
+}
+
+.see img{
+    margin-top: -50px;
+}
+
+.design{
+    width: 100%;
+    min-height: 20%;
+    background-color: black;
+    text-align: center;
+    
+}
+
+.design p{
+    color: white;
+    font-size: 25px;
+    font-family: avenir;
+   padding: 60px;
+}
+
+.class{
+    width: 100%;
+    min-height: 60%;
+    border: px solid red;
+}
+
+.class h3{
+    font-size: 1.8em;
+    padding-top: 60px;
+    font-weight: bolder;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-family: avenir;
+    color: #484f5f; 
+
+}
+
+.class p{
+    font-size: 1.1em;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-family: avenir;
+    color: #484f5f;
+}
+
+.class span{
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-family: avenir;
+    color: #484f5f;   
+}
+
+.class form{
+    margin-top: 60px;
+    border: px solid red;
+    background-color:
+    
+}
+
+.class button{
+    padding: 0.8rem 1.7rem;
+    color: black;
+    font-size: 18px;
+    background-color:white;
+    border: ;
+    border-radius: 5px;
+    outline: none!important;
+
+}
+
+h6{
+    text-align: center;
+    margin-top: 10px;
+    font-family: avenir;
+}
+
+.wrapper{
+    width: 100%;
+    min-height: 180px;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.wrapper h4{
+    color: white;
+    font-size: 25px;
+    font-family: avenir;
+}
+
+.wrapper h5{
+    color: white;
+    font-size:25px;
+    font-family: avenir;
+}
+
+
+.development{
+    width: 100%;
+    min-height: 80%;
+    border: px solid red;
+    padding-top: 70px;
+}
+
+.development h1{
+
+    font-size: 2em;
+    color: #484f5f;
+    font-family: avenir;
+}
+
+.development p{
+    font-size: 1em;
+     color: #484f5f; 
+     font-family: avenir;
+}
+
+.development button{
+    padding: 1rem 2.5rem;
+    color: black;
+    font-size: 20px;
+    font-family: avenir;
+    background-color: white;
+    border: 1px solid black;
+    outline: none!important;
+
+}
+
+.development img{
+    border: px solid red;
+   
+}
+
+
+
+.identity{
+    widows: 100%;
+    min-height: 70%;
+    background-color: #EAEAEA;
+    padding-top: 70px;
+}
+
+.identity h1{
+    font-size: 2em;
+    color: #484f5f;
+    font-family: avenir;   
+}
+
+.identity p{
+    font-size: 1em;
+    color: #484f5f; 
+    font-family: avenir;  
+}
+
+.identity button{
+    padding: 1rem 2.5rem;
+    color: black;
+    font-size: 18px;
+    font-family: avenir;
+    background-color: #EAEAEA;
+    border: 1px solid black; 
+    outline: none!important; 
+}
+
+.print{
+    width: 100%;
+    min-height: 70%;
+    border: px solid black;
+    padding-top: 70px;
+
+}
+
+.print .col-lg-7{
+    border: px solid red;
+}
+
+.print h1{
+    font-size: 1.9em;
+    color: #484f5f;
+    font-family: avenir;   
+}
+
+.print p{
+    font-size: 1em;
+    color: #484f5f; 
+    font-family: avenir;   
+}
+
+.print button{
+    padding: 1rem 2rem;
+    color: black;
+    font-size: 18px;
+    font-family: avenir;
+    background-color: white;
+    border: 1px solid black; 
+    outline: none!important;  
+}
+
+.footer{
+    width: 100%;
+    min-height: 5%;
+    background-color: black;
+    padding: 55px;
+}
+
+.footer p{
+    color: white;
+    font-family: avenir;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row
+{
+   border: px solid #09f;
+   
+}
+
+* [class^=col]
+{
+   border: px solid green;
+}
+

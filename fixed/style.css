@@ -1,0 +1,265 @@
+/*########### Defaults #######*/
+nav,
+header,
+footer{
+    display: block;
+}
+
+body{
+    line-height:1;
+    margin: 2px;
+    padding:0;
+}
+
+
+
+
+
+/*########### Nav bar #########*/
+nav{
+    width: 100%;
+    margin: 0;
+} 
+
+nav ul{
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    
+}
+ul.topnav-right li{
+    list-style: none;
+    float: right;
+    padding: 13px;
+    
+}
+ul.topnav-right li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+ul.topnav-right li a:hover{
+    background-color: cornflowerblue;
+    color: azure;
+}
+    
+.container{
+    background-color:#EBF9F9;
+    padding-top: 4px;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 4px;
+    margin: auto;
+}
+
+
+
+#showcase{
+    min-height: 400px;
+    background:url(port2.jpg)no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+#showcase h2{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom:10px;
+
+}
+
+#showcase p{
+    font-size:30px;
+    margin-top: 30px;
+  }
+input[type="text"]{
+    font-size: 15px;
+    width:300px;
+    margin-bottom:10%;
+}
+
+.boxes2{
+    margin-top: 20px;
+    display: flex;
+}
+.center-justified2 {
+text-align: justify;
+-moz-text-align-last: center;
+text-align-last: center;
+}
+
+.boxes2 article p{
+    line-height: 1.2;
+    font-size: 18px;
+    padding: 15px;
+    border: 10px;
+    overflow: hidden;
+    padding-top: 4px;
+}
+.boxes2 h1{
+    text-align: center;
+    margin-bottom: 4px
+}
+
+
+
+
+
+#boxes{
+    margin-top: 20px;
+    display: flex;
+    }
+    .center-justified {
+text-align: justify;
+-moz-text-align-last: center;
+text-align-last: center;
+}
+
+#boxes .box{
+    float: left;
+    width: 30%;
+    padding: 15px;
+    border: 10px;
+    overflow: hidden;
+    padding-top: 4px;
+}
+
+#boxes .box  img{
+    width: 60px;
+}
+
+button{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0069ff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+    margin-bottom: 4%;
+    overflow: hidden;
+}
+
+
+.footer-main-div{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: #272727;
+    padding: 20px 0px;
+    overflow: hidden;
+    padding-top: 4px;
+}
+.footer-social-icons{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+.footer-social-icons ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-social-icons ul img{
+    width: 50px;
+}
+
+.footer-social-icons ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background:white;
+    line-height: 50px;
+    font-size: 25px;
+} 
+
+
+.footer-social-icons ul li img{
+line-height: 50px;
+    font-size: 25px;
+    display: block;
+} 
+a{
+    text-decoration:none;
+    outline: none; 
+}
+
+.footer-menu-one{
+    width: 100%
+    height:auto;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer-menu-one ul{
+    margin: 0px;
+    padding:0px;
+    text-align: center; 
+} 
+
+.footer-menu-one ul li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.footer-menu-one ul li a{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer-menu-two{
+    width: 100%
+    height:auto;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.footer-menu-two ul{
+    margin: 0px;
+    padding:0px;
+    text-align: center; 
+} 
+
+.footer-menu-two ul li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.footer-menu-two ul li a{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-bottom{
+    width: 20%;
+    height:auto;
+    margin: auto;
+    background:gray;
+    padding-left: 5px;
+}
+.footer-bottom p{
+    text-align: center;
+    color: white;
+
+}
+
+
+
+
+

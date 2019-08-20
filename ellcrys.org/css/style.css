@@ -1,0 +1,28 @@
+body{
+    background-color:;
+}
+
+#container{
+    border: px solid black;
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.center
+{
+    border: 2px solid green;
+    height: 100%;
+    margin: auto;
+    width: 99%;
+}
+
+
+
+.center2{
+    border: 2px solid white;
+    height: 100%;
+    margin: auto;
+    width: 96%;   
+}
+

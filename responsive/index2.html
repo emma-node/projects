@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test Javascript</title>
+</head>
+<body>
+
+<form method="POST" action="/reg" id="userForm">
+    <input type="text" name="firstname" placeholder="First Name" />
+    <input type="text" name="lastname" placeholder="Last Name" />
+    <button type="submit">Send</button>
+</form>
+
+
+
+<form onSubmit="return validateRadios();">
+        <input type="radio" name="r1" value="cat"> Cat<br>
+        <input type="radio" name="r1" value="bat"> Bat<br>
+        <input type="radio" name="r1" value="hat"> Hat<br>
+        <input type="submit" value="Submit Form">
+        </form>
+
+
+
+
+    <script type="text/javascript">
+    var userForm = document.getElementById('userForm');
+    var errMsgArr = ["First name is empty","Last Name is empty"];
+    userForm.onsubmit =  function (evt) {
+        evt.preventDefault();
+        var formElements = this.elements ;
+        
+        for(var i = 0; i < formElements.length - 1; i++){
+            var el = formElements[i];
+            if(el.value==""){
+                el.style.border="1px solid red";
+                console.log(errMsgArr[i]);
+            }else{
+                el.style.border="1px solid green";
+            }
+        }
+    }
+
+
+
+
+    function validateRadios() {
+ var radios = document.getElementsByName("r1");
+ for (var i = 0; i < radios.length; i++) {
+ if (radios[i].checked) {
+ return true;
+ }
+ }
+ alert("Please check one.");
+ return false;
+ }
+
+
+    
+    </script>
+    kjsgksdjfbaskdjbfjbajj actions immediateklis isk actionslsi actions
+</body>
+</html>

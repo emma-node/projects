@@ -1,0 +1,106 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  background-color: #fff8f8;
+}
+
+body .all {
+  width: 100%;
+  padding: 10px 0;
+  border: 0px solid red;
+}
+
+body .all #nav {
+  width: 100%;
+  padding: 10px 10px;
+  background-color: white;
+  border: 0px solid black;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 5px 5px #f2f2f3;
+          box-shadow: 5px 5px 5px 5px #f2f2f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .all #nav .nav-logo {
+  width: 10%;
+  min-height: 60px;
+  border: 1px solid red;
+}
+
+body .all #nav .nav-items {
+  width: 85%;
+  min-height: 60px;
+  border: 0px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .all #nav .nav-items input[type=text] {
+  min-width: 200px;
+  outline: none;
+  height: 32px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+body .all #nav .nav-items button {
+  padding: 10px;
+  margin-left: -20px;
+  background: none;
+  cursor: pointer;
+  border: 1px solid #eee;
+  outline: none;
+}
+
+body .all #nav .nav-items a {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 16px;
+  font-style: normal;
+}
+
+body .all #nav .nav-items a:hover {
+  color: black;
+  border-bottom: 3px solid red;
+}
+
+body .all #card-collections {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid red;
+}
+
+body .all #card-collections h1 {
+  color: darkgray;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  letter-spacing: normal;
+}
+
+body .all #card-collections .main {
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=sign-up.css.map */

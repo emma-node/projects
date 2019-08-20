@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="13px" viewBox="0 0 11 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>arrowdown</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M809.99471,11026.9627 L812.710117,11029.415 C812.710117,11029.415 812.698614,11022.2969 812.698614,11020.9844 C812.698614,11019.6719 814.708623,11019.6719 814.708623,11020.9844 L814.720126,11029.415 L817.411718,11027.0006 C817.79511,11026.6567 818.379328,11026.6684 818.748674,11027.0273 C819.086028,11027.3552 819.093722,11027.8944 818.765859,11028.2318 C818.751752,11028.2463 818.737132,11028.2603 818.722028,11028.2738 L813.712699,11032.7422 L808.682122,11028.2351 C808.330971,11027.9204 808.301349,11027.3807 808.615961,11027.0296 C808.6293,11027.0147 808.643158,11027.0003 808.657509,11026.9864 C809.02748,11026.6276 809.612258,11026.6173 809.99471,11026.9627 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy" transform="translate(-808.000000, -11020.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="arrowdown" fill="#FFFFFF" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,538 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.center{
+    border: px solid blue;
+    min-height: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+header{background-color;
+    min-height: 100px;
+    line-height: 50px;
+}
+
+
+
+
+.navbar-toggler {
+    height: 50px;
+    outline:none !important;
+}
+
+.navbar-nav ml-auto{
+    text-align: center;
+    float:left;
+    color: red;
+}
+.navbar-nav ml-auto li{
+    color: black;
+}
+
+.all{
+    width: 100%;
+   min-height:100%;
+    border: px solid pink;
+
+}
+.community{
+    width: 100%;
+    min-height: 600px;
+     border: px solid red;  
+}
+
+.lead{
+    width: 471px;
+  height: 177px;
+  font-family: avenir;
+  font-size: 48px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.1;
+  letter-spacing: normal;
+  color: #484f5f;
+  margin-top: 50px;
+}
+
+
+.community p{
+    color: #484f5f;
+    font-family: avenir;
+    
+}
+
+ .led{
+    color: #484f5f;
+    line-height: 40px;
+    font-size: 16px;
+    font-family: avenir;
+    
+}
+.community img {
+    float: right;
+    
+    border: px solid red;
+}
+
+#wrapper{
+    width: 100%;
+    height: 57px;
+    background-color: #f5f7fb;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#wrapper p{
+    line-height: 50px;
+}
+
+#wrapper a{
+    text-decoration: none;
+}
+
+.image{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    border: px solid red;
+    text-align: center
+}
+
+.center2{
+    border: px solid blue;
+    min-height: 120px;
+    margin: auto;
+}
+
+.image img{
+    margin-top:40px;
+}
+
+
+.card{
+    width: 100%;
+    min-height:100%;
+    background-image: url(../nike.org/problem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: px solid black;
+    text-align: center;
+}
+.center3{
+    border: px solid blue;
+    width: 65%;
+    min-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card p{
+    margin-top: 100px;
+    font-size: 18px;
+    font-family: avenir;
+}
+
+.square{
+    width: 100%;
+    min-height: 450px;
+    background-color:;
+    margin-top: 60px;
+   
+    
+}
+
+.square2{
+    display: inline-block;
+    width: 45%;
+    min-height: 420px;
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 20px;
+    text-align: center;
+   
+}
+.square2 img{
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.square2 h4{
+    line-height: 100px;
+    text-align: center;
+    font-family: avenir;
+}
+
+.square2 p{
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+    font-family: avenir;
+
+}
+
+.square2 span{
+    color: blue;
+    margin-left: 0px;
+}
+
+.class{
+  width: 100%;
+  height: 250px;
+  background-image: url(../nike.org/path.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.open{
+    width: 100%;
+    min-height: 100%;
+    background-image:url(../nike.org/ownership.png);
+    background-repeat: no-repeat;
+  background-size: cover;
+  border: px solid black;
+}
+
+.section{
+    width: 50%;
+    min-height: 16%;
+    border: px solid red;
+    margin-top: 80px;
+}
+
+.section h1{
+    font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  color: #484f5f;
+}
+
+.section p{
+    font-size: 18px;
+    font-family: avenir;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #484f5f;
+}
+.col-lg-7{
+    text-align: center;
+}
+
+.open h1{
+    font-size: 45px;
+    font-family: ;
+    text-align: left;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #484f5f;  
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.open p{
+    width: 100%;
+    font-size: 18px;
+    font-family: avenir;
+    text-align: left;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #484f5f; 
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+.git-hosting{
+   width: 100%;
+   min-height: 100%;
+   background-image: url(../nike.org/git1.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+.git-hosting h1{
+    margin-top: 55px;
+    font-family: avenir;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #484f5f;
+}
+
+.git-hosting p{
+    font-family: avenir;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: #2f3441;
+}
+
+.git-hosting button{
+    padding: 1rem 3rem;
+    margin-left: px;
+    border: none;
+    border-radius:10px;
+    background-color: blue;
+    color: white;
+    font-family: avenir;
+    font-size: 17px;
+}
+
+.protocol{
+    width: 100%;
+   min-height:100%;
+    background-image: url(../nike.org/protocol.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.protocol img{
+    margin-top: 0px;
+}
+
+.protocol h1{
+    margin-top: 40px;
+    font-family: avenir;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #484f5f;
+}
+
+.protocol span{
+    font-family: avenir;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #2f3441;  
+}
+ 
+
+.protocol p{
+    font-family: avenir;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    margin-left: px;
+    letter-spacing: normal;
+    color: #2f3441; 
+}
+
+.protocol button{
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius:5px;
+    background-color:blue;
+    color: white;
+    font-family: avenir;
+    font-size: 17px;
+}
+
+.protocol input{
+    padding: 0.5rem 2rem;
+    background-color: white;
+    border: none;
+
+}
+
+.inception{
+    width: 100%;
+    height: 57px;
+    background-color:;
+    margin-left:
+}
+
+.inception p{
+    line-height: 40px;
+    font-family: avenir;
+    font-size: 14px;
+}
+
+.inception a{
+    text-decoration: none;
+}
+
+.inception span{
+    color: white;
+    font-size: 16px;
+}
+
+.inception .badge{
+    height: 30px;
+    width: 60px;
+   
+    
+}
+
+
+
+.governance{
+    width: 100%;
+   min-height: 100%;
+   background-image: url(../nike.org/governance.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.governance h1{
+    color: white;
+    font-family:avenir;
+    font-size: 45px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    margin-top: 50px;
+}
+
+.governance p{
+    font-family: avenir;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: var(--white);
+}
+
+.governance span{
+    color: white;
+    font-size: 18px; 
+    font-family: avenir;
+    font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: var(--white);  
+}
+
+.footer{
+    width: 100%;
+    min-height: 60%;
+     background-color: white;
+     border: px solid red;
+}
+
+.footer .heads{
+    margin-top: 50px;
+    margin-left: 25px;
+    font-family: Gordita;
+  font-size: 22.9px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #484f5f;
+}
+
+.footer ul li{
+    list-style: none;
+    font-size: 14.2px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    margin-left: -10px;
+    
+}
+
+.footer ul a{
+    text-decoration: none;
+    color: #484f5f;
+    font-size: 16.2px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+}
+
+.footer p{
+    color: #484f5f;
+    font-size: 16.2px;
+    margin-left: 20px;
+   
+}  
+
+.form-inline{
+    margin-left: 20px;
+}
+
+
+.footer img{
+    margin-left: 20px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row
+{
+   border: px solid #09f;
+   
+}
+
+* [class^=col]
+{
+   border: px solid green;
+}

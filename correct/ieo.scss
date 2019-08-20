@@ -1,0 +1,350 @@
+// IEO Page Comienza
+.ieo-page {
+
+.decentralized{
+
+    width: 100%;
+    padding:30px 0px 30px 0px;
+    background-color:#ffffff;
+    border: 0px solid black; 
+
+h1{
+    font-family: GraphikMedium;
+    font-size: 39px;
+    font-weight: 500;
+    line-height: 1.21;
+    color: #253146;
+    
+
+   
+
+p {
+   opacity: 0.72;
+  font-size: 1.2rem;
+  color: #0c2f3f;
+  
+
+  a {
+    text-decoration: none;
+    color: #0c2f3f !important;
+}
+
+    }
+
+}
+
+
+  .col-lg-5{
+     img{
+         width: 100%;
+         position: relative;
+        bottom: 10%;
+        left: 35%;
+
+     }
+  }
+
+
+.box-collection{
+    width: 100%;
+    padding: 30px 0px 40px 0px;
+    background-color: #ffff;
+
+.box{
+    width: 100%;
+    min-height: 530px;
+    padding: 80px 35px 40px 35px;
+    border: 0px solid red;
+    border-radius: 6px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px 0 rgba(133, 138, 148, 0.1);
+  margin-top: 20px;
+
+  @include media-breakpoint-down (lg) {
+    padding-bottom: 30px;
+  }
+
+  @include media-breakpoint-down (xs) {
+      padding-bottom: 30px;
+  } 
+
+    h1{ 
+  font-family: GraphikMedium;
+  font-size: 1.5rem;
+  color: #1e355c;
+    }
+
+    p{
+        font-size: 18px; 
+        color: #565a5e; 
+        line-height: 1.56;
+        border: px solid red;
+
+        @include media-breakpoint-down (lg) {
+            font-size: 16px;
+        }
+
+        @include media-breakpoint-down (sm) {
+            font-size: 15.5px;
+        }
+    }
+}
+}
+
+@include media-breakpoint-down (lg) {
+  h1 br{
+      display: none;
+  }
+}
+
+@include media-breakpoint-down (md) {
+   h1{
+       font-size: 25px;
+   }
+
+   .box{
+    width: 100%;
+    padding: 30px 10px 40px 5px;
+
+  
+   }
+   
+}
+
+@include media-breakpoint-down (sm) {
+    h1{
+        font-size:27px;
+    }
+    .box{
+        width: 100%;
+        padding: 30px 3px 40px 3px;
+        h1{
+            font-size: 1rem;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+
+@include media-breakpoint-down (xs) {
+    h1{
+        font-size: 20px;  
+    }
+
+    .box{
+
+        h1{
+            font-size: 0.5rem;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+
+
+}
+
+
+
+
+   .safehold{
+       width: 100%;
+       padding: 10px 0px 20px 0px;
+       border: 0px solid red;
+
+       .col-lg-5{
+           padding-top: 80px;
+          
+           
+           @include media-breakpoint-down(md) {
+            padding-top: 0px;
+           
+           }
+
+
+           @include media-breakpoint-down (sm) {
+            padding: 0px 20px;
+            padding-bottom: 20px;
+       }
+
+       h1{
+        font-family: GraphikMedium;
+        font-size: 36px;
+        color: #212731;
+
+        span{
+            color: #0663ff;
+        }
+
+        @include media-breakpoint-down (md) {
+            font-size: 25px;
+        }
+       }
+
+       p{
+        font-size: 16px;
+        line-height: 1.5;
+        color: #697381;
+        
+        span{
+            font-weight: bold; 
+        }
+        @include media-breakpoint-down (md) {
+            font-size: 15px;
+        }
+       }
+
+       .video{
+        width: 400px;
+        height: 68px;
+        padding: 0px;
+        text-align: center;
+       
+
+        @include media-breakpoint-down(md) {
+            width: 95%;
+        }
+
+        @include media-breakpoint-down(sm)  {
+            width: 95%;
+         }
+          
+    
+       
+            a{
+                border: solid 0.5px rgba(125, 119, 119, 0.41);
+               border-radius: 3.3px;
+                color: #697381;
+                display: inline-block;
+                font-size: 14px;
+                height: 100%;
+                line-height: 73px;
+                vertical-align: top;
+                text-align: center;
+                width: 49%;
+           
+                  &.deactivate{
+                    background-image: linear-gradient(77deg, #0663ff, #2d7cff);
+                    color: #fff;
+                    border: none;
+
+                    @include media-breakpoint-down(md) {
+                        width: 49%;  
+                    }
+                    @include media-breakpoint-down(sm) {
+                        width: 49%;  
+                }
+
+           
+            }
+
+       
+       }
+    }
+
+}
+
+    .col-lg-7 {
+        img{
+            position: relative;
+            left: 25%;
+             top:0;
+
+            @include media-breakpoint-down (sm) {
+                position: static;
+                padding-top: 20px;
+            }
+        }
+
+       
+    }  
+    
+   
+
+
+   }
+
+   
+
+
+
+
+
+.fund{
+    width: 100%;
+    padding: 30px 0px;
+    padding-top: 20px; 
+    background-color: #ffffff;
+  
+    
+
+    .rectangle{
+        width: 608px;
+        height: 78.4px;
+        padding: 5px;
+        margin-top: 80px;
+        background-color: #edeff3;
+        text-align: center;
+        border-radius: 38.5px;
+        margin: auto;
+
+     
+        
+    @include media-breakpoint-down(sm)  {
+       width: 95%;
+    }
+     
+
+            a{
+               
+              border-radius: 38.5px;
+                color: #697381;
+                display: inline-block;
+                font-size: 24px;
+                height: 100%;
+                line-height: 73px;
+                vertical-align: top;
+                width: 49.5%;
+           
+                &.active{
+                    background-image: linear-gradient(77deg, #0663ff, #2d7cff);
+                    color: #fff;
+
+                }
+
+            @include media-breakpoint-down(sm) {
+                width: 49%;  
+          }
+            }
+
+
+        @include media-breakpoint-down (sm) {
+            span{
+                display: none;
+            }
+          
+        }
+    }
+
+     
+
+    .section{
+        width: 70%;
+        padding: 60px 0px 10px 0px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+   
+
+  
+
+
+}
+
+
+// IEO Page Comienza

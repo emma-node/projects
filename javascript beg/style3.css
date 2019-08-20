@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.container{
+    background-color: #3f5c9a;
+    width: 100%;
+    height: 100px;
+}
+
+.container p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width:120px;
+    height: 50px;
+    margin-left: 80px;
+    padding-top: 4px        
+}
+.login{
+    float: right;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.login table{
+color: white;
+}
+
+
+.inputtxt{
+    width: 130px;
+    height: 20px;
+    margin-left: 8px;
+}
+.btn{
+    background-color:#3f5c9a;
+    color: white;
+    font-size: 10px;
+    margin-left: 4px;
+    width: 60px;
+    height: 20px;
+}
+.content-control{
+    width: 100%;
+    height: 1000px;
+    margin-left:40px;
+    margin-right: 40px;
+}
+.left{
+    float: left;
+    margin-top: 20px;
+    width: 30%;
+    font-family: Arial;
+    color: black;
+}
+.left h3{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.right{
+    float: right;
+    margin-top: 20px;
+}
+.ipt{
+    width: 140px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #95a5a6;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.ipt2{
+   width:300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: none;
+    border: 0.5px solid #95a5a6;
+    padding-left: 10px;
+    font-size: 15px; 
+}
+.ipt1{
+     width:260px;
+   height: 30px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #95a5a6;
+    padding-left: 10px;
+    font-size: 15px;  
+}
